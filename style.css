@@ -1,0 +1,2710 @@
+.navDiv {
+  width: 100%;
+  height: 100px;
+  background: lightblue;
+  color: white;
+}
+
+.navDivMyBag {
+  width: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  margin: 14px;
+}
+
+.navDivProfile {
+  width: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  margin: 14px;
+}
+
+.navDivProfileInvisible {
+  display: none;
+}
+
+.navDivLogIn {
+  width: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  margin: 14px;
+}
+
+.navDivLogInInvisible {
+  display: none;
+}
+
+.navDivLogOut {
+  width: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  margin: 14px;
+}
+
+.navDivLogOutInvisible {
+  display: none;
+}
+
+.navDivLocation {
+  width: 5%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: black;
+  margin: 14px;
+}
+
+.navDivIcon {
+  width: 20%;
+  height: 80%;
+  text-align: center;
+  display: inline-block;
+  margin: 14px;
+}
+
+.navDivTitle {
+  width: 70%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-style: oblique;
+  font-family: cursive;
+}
+
+.adminAddProduct {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.adminAddProduct:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.navDivSearch {
+  width: 55%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  position: static;
+  vertical-align: top;
+  margin-top: 45px;
+  height: 50px;
+}
+
+.navDivSearchDiv {
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+  font-size: medium;
+  color: grey;
+  border: 1px grey solid;
+  display: inline-block;
+}
+
+.navDivSearchDivInput {
+  width: 82%;
+  height: 90%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: medium;
+  color: grey;
+  border: 1px grey solid;
+  display: inline-block;
+  margin-left: 20px;
+  border: none;
+  float: left;
+  background: transparent;
+}
+
+.navDivSearchDivToAppTrans {
+  display: none;
+}
+
+.navDivSearchDivInput:focus {
+  outline: none;
+}
+
+/* .navDivSearchDivToAppShow {
+  height: 200px;
+  width: 80%;
+  background: white;
+  color: black;
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 10px;
+  overflow-y: auto;
+  position: inherit;
+  /* z-index: 10; */
+
+.navDivSearchDivToAppTablClass {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: white;
+  text-align: left;
+  font-size: medium;
+  color: black;
+  z-index: 100;
+}
+
+.navDivSearchDivToAppTablClassTd:hover {
+  cursor: pointer;
+  background: lightgrey;
+}
+
+.navDivText {
+  font-size: small;
+  font-family: sans-serif;
+}
+
+.navDivSearchDivLabel {
+  font-size: small;
+  font-family: sans-serif;
+}
+
+.navDivLocationDivLabel {
+  font-size: small;
+  font-family: sans-serif;
+}
+
+.navigationBar {
+  width: 100%;
+  height: 80px;
+  background: lightblue;
+  text-align: center;
+  margin: auto;
+}
+
+.buttStyle {
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  display: inline-block;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.navBarFirstButt {
+  width: auto;
+  display: inline-block;
+  font-size: 0px;
+  margin: 10px;
+}
+
+.NavBarAll {
+  width: auto;
+  display: inline-block;
+  margin: 10px;
+  /* z-index: -1; */
+}
+
+.NavBarAll:hover {
+  cursor: pointer;
+}
+
+.navBarHomeButt:hover {
+  color: white;
+}
+
+.navBarSupplmntsButt:hover {
+  color: white;
+}
+
+.navBarUsersButt:hover {
+  color: white;
+}
+
+.navBarSupplmntsButt:hover .SupplmntsDivToApp {
+  display: block;
+  width: 250px;
+  height: 450px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.navBarProductsButt:hover {
+  color: white;
+}
+
+.BeautyDivToAppTableTr {
+  height: 30px;
+}
+
+.SupplmntsDivToAppTableTr {
+  height: 30px;
+}
+
+.HealthDivToAppTableTr {
+  height: 30px;
+}
+
+.HygieneDivToAppTableTr {
+  height: 30px;
+}
+
+.MenDivToAppTableTr {
+  height: 30px;
+}
+
+.BabyDivToAppTableTr {
+  height: 30px;
+}
+
+.CoronaDivToAppTableTr {
+  height: 30px;
+}
+
+.FoodDivToAppTableTr {
+  height: 30px;
+}
+
+.SupplmntsDivToApp {
+  display: none;
+}
+
+.navBarBeautyButt:hover {
+  color: white;
+}
+
+.navBarBeautyButt:hover .BeautyDivToApp {
+  display: table;
+  width: 200px;
+  height: 350px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  text-align: center;
+  z-index: 1;
+}
+
+.BeautyDivToAppTableLabel {
+  padding: 5px;
+}
+
+.BeautyDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.SupplmntsDivToAppTableLabel {
+  padding: 5px;
+}
+
+.SupplmntsDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.HealthDivToAppTableLabel {
+  padding: 5px;
+}
+
+.HealthDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.HygieneDivToAppTableLabel {
+  padding: 5px;
+}
+
+.HygieneDivToAppTableLabel:hover {
+  /* color:lightblue; */
+  cursor: pointer;
+}
+
+.MenDivToAppTableLabel {
+  padding: 5px;
+}
+
+.MenDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.BabyDivToAppTableLabel {
+  padding: 5px;
+}
+
+.BabyDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.CoronaDivToAppTableLabel {
+  padding: 5px;
+}
+
+.CoronaDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.FoodDivToAppTableLabel {
+  padding: 5px;
+}
+
+.FoodDivToAppTableLabel:hover {
+  cursor: pointer;
+}
+
+.BeautyDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.SupplmntsDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.HealthDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.HygieneDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.MenDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.BabyDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.CoronaDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.FoodDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.SDivToAppTableTd:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.BeautyDivToApp {
+  display: none;
+}
+
+.BeautyDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.HealthDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.HygieneDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.MenDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.BabyDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.CoronaDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.FoodDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.SupplmntsDivToAppTable {
+  color: grey;
+  width: 100%;
+  height: 200px;
+  border: null;
+  text-align: start;
+  font-family: sans-serif;
+  font-size: small;
+  border-radius: 10px;
+}
+
+.navBarHealthButt:hover {
+  color: white;
+}
+
+.navBarHealthButt:hover .HealthDivToApp {
+  display: block;
+  width: 250px;
+  height: 480px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.HealthDivToApp {
+  display: none;
+}
+
+.navBarHygieneButt:hover {
+  color: white;
+}
+
+.navBarHygieneButt:hover .HygieneDivToApp {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.HygieneDivToApp {
+  display: none;
+}
+
+.navBarMenButt:hover {
+  color: white;
+}
+
+.navBarMenButt:hover .MenDivToApp {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.MenDivToApp {
+  display: none;
+}
+
+.navBarBabyKidButt:hover {
+  color: white;
+}
+
+.navBarBabyKidButt:hover .BabyDivToApp {
+  display: block;
+  width: 200px;
+  height: 230px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.BabyDivToApp {
+  display: none;
+}
+
+.navBarCoronaButt:hover {
+  color: white;
+}
+
+.navBarCoronaButt:hover .CoronaDivToApp {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.CoronaDivToApp {
+  display: none;
+}
+
+#HomePageLogInId:hover .LogInDivToApp {
+  display: block;
+  transition-delay: 1s;
+  width: 300px;
+  height: 320px;
+  right: 100px;
+  background: white;
+  position: absolute;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.LogInDivToAppUserNameEmailClass {
+  height: 30px;
+  width: 90%;
+  border: grey 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* .LogInDivToAppUserNameEmailClass:hover{ */
+/* cursor:auto; */
+/* } */
+
+.LogInDivToAppPasswordClass {
+  height: 30px;
+  width: 90%;
+  border: grey 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.LogInDivToAppLogInButton {
+  height: 50px;
+  width: 98%;
+  background: lightblue;
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.LogInDivToAppLogInButton:hover {
+  cursor: pointer;
+}
+
+.LogInDivToAppLostPassword {
+  text-decoration: none;
+  color: lightblue;
+  font-size: small;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+}
+
+.LogInDivToAppLostPassword:hover {
+  text-decoration: underline;
+}
+
+.LogInDivToApp {
+  display: none;
+}
+
+.LogInDivToApp:hover {
+  display: block;
+  width: 300px;
+  height: 350px;
+  right: 100px;
+  position: absolute;
+  padding: 10px;
+  cursor: default;
+  z-index: 1;
+}
+
+.LogInDivToAppSignInDiv {
+  color: black;
+  display: inline-block;
+  width: 50%;
+}
+
+.LogInDivToAppCreateAccDiv {
+  display: inline-block;
+  text-align: right;
+  width: 45%;
+}
+
+.LogInDivToAppUserNameEmailDiv {
+  display: block;
+  text-align: left;
+}
+
+.LogInDivToAppPasswordDiv {
+  display: block;
+  text-align: left;
+}
+
+.LogInDivToAppSignIn {
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+.LogInDivToAppUserNameEmail {
+  font-size: small;
+  color: black;
+  font-family: sans-serif;
+}
+
+.LogInDivToAppPassword {
+  font-size: small;
+  color: black;
+  font-family: sans-serif;
+}
+
+.LogInDivToAppCreateAcc {
+  font-size: small;
+  font-family: sans-serif;
+  color: lightblue;
+  text-decoration: none;
+}
+
+.LogInDivToAppCreateAcc:hover {
+  text-decoration: underline;
+}
+
+#HomePageMyBagId:hover .MyBagDivToApp {
+  display: block;
+  width: 350px;
+  height: 200px;
+  right: 30px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  color: black;
+  z-index: 1;
+}
+
+.MyBagDivToApp:hover {
+  display: block;
+  width: 350px;
+  height: 200px;
+  right: 30px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  color: black;
+  cursor: default;
+  z-index: 1;
+}
+
+.MyBagDivToApp {
+  display: none;
+}
+
+.MyBagDivToAppTotalDiv {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  font-family: sans-serif;
+}
+
+.MyBagDivToAppAllMyProductsDiv {
+  width: 100%;
+  margin-top: 5px;
+  height: 140px;
+  word-break: break-word;
+  white-space: nowrap;
+  overflow-y: auto;
+  display: inline-block;
+}
+
+.MyBagDivToAppAllMyPrdctBtn {
+  width: 50px;
+  height: 30px;
+  background: orange;
+  display: inline-block;
+  border-radius: 10px;
+  border: none;
+}
+
+.MyBagDivToAppAllMyPrdctDivImg {
+  width: 40px;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.MyBagDivToAppAllMyPrdctDivInfo {
+  width: 210px;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  text-align: left;
+  font-size: small;
+}
+
+.MyBagDivToAppAllMyPrdctDiv {
+  width: 90%;
+  height: 50%;
+  display: block;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.MyBagDivToAppSumPriceDiv {
+  width: 60%;
+  display: inline-block;
+  float: left;
+  font-size: x-large;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.navBarFoodButt:hover {
+  color: white;
+}
+
+.navBarFoodButt:hover .FoodDivToApp {
+  display: block;
+  width: 200px;
+  height: 200px;
+  right: 20px;
+  background: white;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 5px 10px lightgrey;
+  z-index: 1;
+}
+
+.FoodDivToApp {
+  display: none;
+}
+
+.buttStyle:hover {
+  cursor: pointer;
+}
+
+.navBarImage {
+  vertical-align: top;
+  width: 20px;
+  height: 20px;
+}
+
+.navBarInput {
+  left: 0px;
+}
+
+.navDivMyBag:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navDivProfile:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navDivLogIn:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navDivLogOut:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.navDivLocation:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.HomePageDivFrstImg {
+  width: 100%;
+  height: 400px;
+}
+
+.adminNewProductSlct {
+  width: 101%;
+  height: 40px;
+  float: left;
+}
+
+.adminSelectedProdDiv {
+  width: 100%;
+  height: 650px;
+}
+
+.adminAddProdDiv {
+  width: 100%;
+  height: 600px;
+  background: lightgrey;
+  text-align: center;
+}
+
+.adminSelectedUserDiv {
+  width: 100%;
+  height: 750px;
+  background: lightgrey;
+  text-align: center;
+}
+
+.adminSelectedProdDivLeft {
+  width: 30%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.adminSelectedProdDivRight {
+  width: 68%;
+  height: 100%;
+  float: right;
+  display: inline-block;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.adminSelectedProdDivRightNameTxtArea {
+  width: 100%;
+  height: 95%;
+  resize: none;
+}
+
+.adminSelectedProdDivRightNameTxtArea:focus {
+  outline: none;
+}
+
+.adminSelectedProdDivRightNameRight {
+  display: inline-block;
+  height: 95%;
+  width: 700px;
+}
+
+.adminSelectedProdDivRightNameRightSlct {
+  display: inline-block;
+  height: 95%;
+  width: 700px;
+}
+
+.adminSelectedProdDivRightNameLeft {
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  text-align: center;
+}
+
+.iconStyle {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.adminHomePageDiv {
+  width: 100%;
+  height: 600px;
+}
+
+.adminHomePageDivSearchDiv {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.adminHomePageDivProductsDiv {
+  height: 550px;
+  width: 100%;
+  background: lightblue;
+  /* border:1px solid lightblue; */
+  text-align: -webkit-center;
+  overflow-y: auto;
+}
+
+.adminHomePageDivOrdersDiv {
+  height: 550px;
+  width: 100%;
+  background: lightblue;
+  text-align: -webkit-center;
+  overflow-y: auto;
+}
+
+.name {
+}
+
+.userName {
+  height: 20px;
+}
+
+.nameTd {
+  width: 20%;
+}
+.descrpt {
+  height: 35px;
+}
+.price {
+  height: 35px;
+}
+.image {
+  height: 35px;
+}
+.quantity {
+  height: 35px;
+}
+.archive {
+  height: 35px;
+}
+
+/* .nameTd:hover{ */
+/* background:grey; */
+/* } */
+
+.adminProductTabelTrTitle {
+  background: white;
+  height: 35px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.adminHomePageDivProductsDivTableTitleTr {
+  height: 50px;
+  width: 100%;
+}
+
+.adminHomePageDivProductsDivTableTr {
+  text-align: center;
+  white-space: normal;
+  word-break: break-all;
+}
+
+.adminHomePageDivProductsDivTableTr:hover {
+  background: lightgrey;
+  cursor: default;
+}
+
+.adminHomePageDivProductsDivTableTrEmpty {
+  text-align: center;
+  white-space: normal;
+}
+
+/* .adminHomePageDivProductsDivTableTh{ */
+/* width:50px; */
+/* } */
+
+.adminHomePageDivProductsDivTableTd {
+  width: 100px;
+  height: 50px;
+}
+
+.adminHomePageDivProductsDivTable {
+  height: 100px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.adminHomePageDivSearchInpt {
+  height: 80%;
+  width: 500px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background: lightblue;
+}
+
+.adminHomePageDivSearchInpt:focus {
+  outline: none;
+}
+
+.HomeFrstImage {
+  height: 100%;
+  width: 100%;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.editProfDiv {
+  height: 50px;
+  margin: 10px;
+  text-align: center;
+}
+
+.edtProfileBtn {
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+}
+
+.edtProfileBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.profileCommentAddBtn {
+  height: 30px;
+  width: 60px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+}
+
+.profileCommentAddBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    z-index: -1;
+  }
+}
+
+.HomePageDivSecondGrpImage {
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.HomPagDivSecFrstDiv {
+  height: 100%;
+  width: 33%;
+  background: blue;
+  display: inline-block;
+}
+
+.HomPagDivSecSecDiv {
+  height: 100%;
+  width: 33%;
+  background: yellow;
+  position: relative;
+  display: inline-block;
+}
+
+.HomPagDivSecDiv {
+  height: 100%;
+  width: 33%;
+  display: inline-block;
+  border-radius: 500px 500px;
+}
+
+.HomPagDivSecImageStyle {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 500px 500px;
+}
+
+.HomPagDivSecImageStyleEnd {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.HomPagDivSecImageGrpStyle {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  border-radius: 150px 150px;
+}
+
+.HomPagDivSecSecDivFrstDiv {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.HomPagDivSecSecDivSecDiv {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.HomPagDivSecDivButt {
+  position: absolute;
+  height: 50px;
+  width: 120px;
+  top: 150%;
+  left: 10%;
+  background-color: null;
+  border: 0px;
+  border-radius: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+  background: null;
+}
+
+.HomPagDivSecDivButtMiddle {
+  position: absolute;
+  height: 50px;
+  width: 120px;
+  top: 150%;
+  left: 45%;
+  background-color: null;
+  color: null;
+  border: 0px;
+  border-radius: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+  background: null;
+}
+
+.HomPagDivSecDivButtEnd {
+  position: absolute;
+  height: 50px;
+  width: 120px;
+  top: 150%;
+  right: 10%;
+  background-color: null;
+  color: null;
+  border: 0px;
+  border-radius: 50px;
+  opacity: 0.7;
+  cursor: pointer;
+  background: null;
+}
+
+.HomPagDivSecRightImage {
+  width: 30px;
+  height: 30px;
+}
+
+.HomPagDivSecRightImageMiddle {
+  width: 30px;
+  height: 30px;
+}
+
+.HomPagDivSecRightImageEnd {
+  width: 30px;
+  height: 30px;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecImageStyle {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecImageStyleEnd {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecDivButt {
+  background: lightblue;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.HomPagDivSecDivButt:hover {
+  transform: translate(-15px, 0);
+  opacity: 1;
+  background: grey;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecImageGrpStyle {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecDivButtMiddle {
+  background: lightblue;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.HomPagDivSecDivButtMiddle:hover {
+  transform: translate(-15px, 0);
+  opacity: 1;
+  background: grey;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecImageGrpStyle {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecDivButtMiddle {
+  background: lightblue;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.HomPagDivSecDivButtMiddle:hover {
+  transform: translate(-15px, 0);
+  opacity: 1;
+  background: grey;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecImageStyleEnd {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.HomPagDivSecDiv:hover .HomPagDivSecDivButtEnd {
+  background: lightblue;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.HomPagDivSecDivButtEnd:hover {
+  transform: translate(-15px, 0);
+  opacity: 1;
+  background: grey;
+}
+
+.HomPagTrendProdLab {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.HomPagDivThirdDivOfRecyclerViewEnd {
+  height: 100%;
+  width: 230px;
+  background: blue;
+  display: inline-block;
+  margin-right: 15px;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.HomPagDivThirdAllProd {
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.HomPagDivThirdDivOfRecyclerView {
+  height: 100%;
+  width: 230px;
+  background: blue;
+  display: inline-block;
+  margin-right: 15px;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.HomPagDivThirdDivOfRecyclerViewFrst {
+  height: 100%;
+  width: 230px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 15px;
+  overflow-wrap: break-word;
+  white-space: normal;
+  text-align: center;
+}
+
+.HomPagDivThirdDivOfRecyclerViewFrst:hover {
+  border: 0.5px solid grey;
+}
+
+.HomPagDivThirdProdPrice {
+  color: grey;
+  font-size: x-large;
+}
+
+.HomPagDivThirdProdBuyLogo {
+  height: 80%;
+  width: 25px;
+  padding: 5px;
+  vertical-align: bottom;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.HomPagDivSixReadMoreLogo {
+  height: 80%;
+  width: 40px;
+  padding: 5px;
+  vertical-align: bottom;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.HomPagDivThirdProdBuyDiv {
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+  display: block;
+  height: 50px;
+  background: linear-gradient(to left, white 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+}
+
+.HomPagDivSixReadMore {
+  border-radius: 20px;
+  width: 35%;
+  display: block;
+  height: 50px;
+  margin-top: 20px;
+  background: linear-gradient(to left, white 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.3s ease-out;
+}
+
+.HomPagDivSixReadMore:hover {
+  background-position: left;
+  color: white;
+}
+
+.HomPagDivThirdProdBuyDiv:hover {
+  background-position: left;
+  color: white;
+}
+
+.HomPagDivThirdProdBuyDivLabel {
+  display: inline-block;
+  margin-top: 15px;
+  vertical-align: top;
+}
+
+.HomPagDivThirdProdBuyDivLabel:hover {
+  cursor: default;
+}
+
+.HomPagDivSixReadMoreLabel {
+  display: inline-block;
+  margin-top: 15px;
+  vertical-align: top;
+}
+
+.HomPagDivSixReadMoreLabel:hover {
+  cursor: default;
+}
+
+.HomPagDivThirdProdBuyLogo:hover {
+  background-position: left;
+}
+
+.HomPagDivFourDivOfRecyclerView {
+  height: 150px;
+  width: 155px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.HomPagDivFourAllCatg {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.divOfChart {
+  width: 100%;
+  height: 450px;
+  margin: 20px;
+}
+
+.divOfChartDiagram {
+  width: 100%;
+  height: 400px;
+}
+
+.HomPagDivFourDivOfRecyclerView:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+.HomPagDivFifthDivOfRecyclerView {
+  height: 150px;
+  width: 230px;
+  background: blue;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 100px;
+  vertical-align: bottom;
+}
+
+.HomPagDivFifthDivOfRecyclerViewLast {
+  height: 150px;
+  width: 230px;
+  background: blue;
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 100px;
+  vertical-align: bottom;
+}
+
+.HomPagFeaturedBrandsImage {
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.HomPagDivFifth:hover {
+  cursor: default;
+}
+
+.HomPagDivFifthAllRecyclerView {
+  width: 100%;
+  height: 75%;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.HomPagDivFourDivOfRecyclerViewImage {
+  height: 70%;
+  width: 50%;
+}
+
+.HomPagDivSixDivOfRecyclerView {
+  height: 380px;
+  width: 410px;
+  display: inline-block;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.HomPagDivSixDivOfRecyclerViewFrst {
+  height: 380px;
+  width: 410px;
+  display: inline-block;
+  margin-right: 30px;
+  border-radius: 20px;
+}
+
+.HomPagDivSixDivOfRecyclerViewLst {
+  height: 380px;
+  width: 410px;
+  display: inline-block;
+  margin-right: 0px;
+  border-radius: 20px;
+}
+
+.HomPagDivSevenDivOfRecyclerView {
+  height: 215px;
+  width: 250px;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.HomPagDivSevenDivOfRecyclerView:hover {
+  background: lightblue;
+  cursor: pointer;
+}
+
+.HomPagDivSevenDivOfRecyclerViewTitle:hover {
+  cursor: pointer;
+}
+
+.HomPagDivThirdDivOfRecyclerView:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.HomPagDivThirdDivOfRecyclerViewFrst:hover .HomPagDivThirdProdImages {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.HomPagDivThirdProdNamLab {
+  color: black;
+  text-decoration: none;
+}
+
+.HomPagDivThirdProdNamLab:hover {
+  text-decoration: underline;
+}
+
+.HomPagDivThirdDivOfRecyclerViewEnd:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.HomPagDivThirdProdImages {
+  height: 200px;
+  width: 230px;
+}
+
+.HomPagDivThirdProdNam {
+  font-family: sans-serif;
+  height: 80px;
+}
+
+.HomPagDivThird {
+  height: 400px;
+  margin: 20px;
+  max-width: 100%;
+}
+
+.HomPagDivThirdNextPrev {
+  height: 30px;
+  width: 30px;
+  border-radius: 100px 100px;
+}
+
+.HomPagDivThirdFlecheDiv {
+  height: 30px;
+  width: 70px;
+  float: right;
+  margin-top: 10px;
+}
+
+.HomPagDivFour {
+  height: 250px;
+  margin: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.HomPagDivFourChart {
+  height: 320px;
+  width: 100%;
+  background: red;
+}
+
+.HomPagDivFifth {
+  height: 250px;
+  margin: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.HomPagDivSix {
+  height: 450px;
+  margin: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.HomPagDivSixDivOfRecyclerViewImage {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  display: block;
+}
+
+.HomPagDivSixDivOfRecyclerViewLabel {
+  font-family: sans-serif;
+  font-size: medium;
+  color: black;
+}
+
+.HomPagDivSixDivOfAll {
+  height: 380px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.HomPagDivSeven {
+  height: 280px;
+  margin: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.HomPagDivEight {
+  width: auto;
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+}
+
+.HomPagDivEightTable {
+  height: 100%;
+  width: 60%;
+  text-align: center;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+.HomPagDivEightTableTh {
+  color: lightblue;
+}
+
+.HomPagDivEightTableTh:hover {
+  cursor: default;
+}
+
+.HomPagDivEightTableTd {
+  color: grey;
+}
+
+.HomPagDivEightTableTd:hover {
+  cursor: pointer;
+  color: lightblue;
+}
+
+#HomPagDivThirdPrevButt:hover {
+  cursor: pointer;
+}
+
+#HomPagDivThirdNextButt:hover {
+  cursor: pointer;
+}
+
+.logInPageAdmin {
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+.forgetPass {
+  font-family: sans-serif;
+  font-size: large;
+  font-style: bold;
+}
+
+.forgetPass:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.logInPageAdmin:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.HomPagPopProdcts {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.HomPagFeaturedBrands {
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.HomPagAbtPharmcy {
+  font-size: 25px;
+  font-family: cursive;
+  text-align: center;
+  color: lightblue;
+}
+
+.HomPagDivSevenDivOfRecyclerViewOne {
+  display: block;
+  height: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HomPagDivSevenDivOfRecyclerViewTwo {
+  display: block;
+  height: 30px;
+  width: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.HomPagDivSevenDivOfRecyclerViewTitle {
+  font-family: sans-serif;
+}
+
+.HomPagDivSevenDivOfRecyclerViewThree {
+  overflow-wrap: break-word;
+  display: block;
+  height: 80px;
+  width: auto;
+  max-width: 100%;
+  font-family: serif;
+  color: grey;
+}
+
+.HomPagDivSevenDivOfRecyclerViewImage {
+  height: 100%;
+  width: 70%;
+}
+
+.HomPagDivFourDivOfRecyclerViewText {
+  font-family: sans-serif;
+}
+
+.HomPagDivFourDivOfRecyclerViewText:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+/* /////////////////////////////////// */
+
+.selectedProductDivRightQttButtonMinus:hover {
+  cursor: pointer;
+}
+
+.selectedProductDivRightQttButtonPlus:hover {
+  cursor: pointer;
+}
+
+.signUpLogInPageDiv {
+  width: 100%;
+  height: 550px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.adminLogInPageDiv {
+  width: 100%;
+  height: 600px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.regPageDiv {
+  width: 100%;
+  height: 610px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.signUpLogInPageDivLogInDiv {
+  width: 43%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.signUpLogInPageDivSignUpDiv {
+  width: 100%;
+  height: 80%;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.regPageDivSignUpDiv {
+  width: 100%;
+  height: 95%;
+  padding: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.profilePageFrstDivLeftTable {
+  width: 100%;
+  height: 100%;
+  background: lightblue;
+}
+
+.profilePageFrstDivLeftTableTr {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: x-large;
+}
+
+.profilePageFrstDivRightTableTr {
+  font-family: sans-serif;
+  font-size: x-large;
+  height: 20%;
+}
+
+.profileCommentDesc {
+  width: 15%;
+}
+
+.profileCommentBtnTd {
+  text-align: center;
+}
+
+.profileCommentDescriptionTxtArea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.CommentPageTableOfOldComments {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.CommentPageTableOfOldCommentsTr {
+  height: 50px;
+}
+
+.CommentPageTableOfOldCommentsNumb {
+  width: 20%;
+}
+
+.CommentPageTableOfOldCommentsDate {
+  width: 20%;
+}
+
+.CommentPageTableOfOldCommentsTrTitle {
+  font-size: large;
+  height: 20px;
+}
+
+.CommentPageTableOfOldOrdersTrTitle {
+  text-align: center;
+  background: lightgrey;
+  height: 20px;
+}
+
+.allMyOrdersTrOrder {
+  height: 50px;
+  text-align: center;
+}
+
+.CommentPageTableOfOldOrdersThTitle {
+  text-align: center;
+  width: 16.5%;
+}
+
+.profileCommentDescriptionTxtArea:focus {
+  outline: none;
+}
+
+.profilePageAllCommentsDiv {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.profileCommentTextAreaTd {
+  width: 75%;
+  height: 100px;
+}
+
+.profilePageFrstDivRightTableTdAllCmnts {
+  height: 100%;
+  width: 100%;
+}
+
+.profilePageFrstDivLeftTableTd {
+  background: lightgrey;
+}
+
+.profilePageFrstDivRightTableTr:hover {
+  cursor: default;
+}
+
+.profilePageFrstDivRightTableThAllCmnts {
+  vertical-align: top;
+}
+
+.profilePageFrstDivLeft {
+  height: 100%;
+  width: 20%;
+  display: inline-block;
+}
+
+#profilePageFrstDivLeftTableTdId1:hover {
+  cursor: default;
+}
+
+#profilePageFrstDivLeftTableTdId2:hover {
+  cursor: default;
+}
+
+#profilePageFrstDivLeftTableTdId3:hover {
+  cursor: default;
+}
+
+.profilePageFrstDivRight {
+  height: 100%;
+  width: 78%;
+  display: inline-block;
+  overflow-y: scroll;
+}
+
+.profilePageFrstDivRightTable {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.OrderPageFrstDivRightTable {
+  height: 100px;
+  width: 100%;
+  overflow: auto;
+}
+
+.profilePageFrstDivRightTable:hover {
+  cursor: default;
+}
+
+.profilePageFrstDiv {
+  height: 500px;
+  padding: 10px;
+}
+
+.editProfilePageFrstDiv {
+  height: 600px;
+  margin: 10px;
+  text-align: center;
+}
+
+.editProfilePageFrstDivUserNameLeftDiv {
+  height: 100%;
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 100px;
+}
+
+.editProfilePageFrstDivUserNameRightDiv {
+  height: 100%;
+  width: 50%;
+  float: right;
+  text-align: center;
+  line-height: 100px;
+}
+
+.editProfilePageFrstDivAddressLeftDiv {
+  height: 100%;
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 130px;
+}
+
+.editProfilePageFrstDivAddressRightDiv {
+  height: 100%;
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.editProfileTableAddressDivTdLeft {
+  width: 30%;
+}
+
+.edtProfTableRightTxtArea {
+  height: 90%;
+  width: 88%;
+  resize: none;
+}
+
+.edtProfTableRightTxtArea:focus {
+  outline: none;
+}
+
+.editProfileTableAddressDiv {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.editProfileTableAddressDivTr {
+  height: 33%;
+  width: 100%;
+}
+
+.editProfilePageFrstDivUserNameRightDivTxtArea {
+  width: 90%;
+  height: 90%;
+  resize: none;
+}
+
+.editProfilePageFrstDivUserNameRightDivTxtArea:focus {
+  outline: none;
+}
+
+.editProfilePageFrstDivUserName {
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+}
+
+.editProfilePageFrstDivUserPass {
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+}
+
+.editProfilePageFrstDivUserEmail {
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+}
+
+.editProfilePageFrstDivUserPhoneNumb {
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+}
+
+.editProfilePageFrstDivUserAddress {
+  height: 150px;
+  width: 70%;
+  display: inline-block;
+}
+
+.signUpLogInPageDivLogInDivLabelDiv {
+  width: 100%;
+}
+
+.signUpLogInPageDivLogInDivUsrName {
+  height: 100px;
+  width: 100%;
+  font-size: large;
+}
+
+.signUpLogInPageDivRegDivUsrName {
+  height: 100px;
+  width: 45%;
+  font-size: large;
+  display: inline-block;
+}
+
+.addAddressDiv {
+  height: 100px;
+  width: 45%;
+  font-size: large;
+  display: inline-block;
+}
+
+.signUpLogInPageDivLogInDivUsrNameEmail {
+  height: 40px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  width: 70%;
+  padding: 5px;
+  text-align: center;
+}
+
+.signUpLogInPageDivRegDivUsrNameEmail {
+  height: 40px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  width: 70%;
+  padding: 5px;
+}
+
+.addAddressLineClass {
+  height: 40px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+  width: 70%;
+  padding: 5px;
+}
+
+.signUpLogInPageDivLogInButton {
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  border: none;
+}
+
+.signUpLogInPageDivRegButton {
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  border: none;
+  vertical-align: center;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.signUpLogInPageDivRegButton:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.signUpLogInPageDivRegButton:hover {
+  cursor: pointer;
+}
+
+.signUpLogInPageDivLogInButton:hover {
+  cursor: pointer;
+}
+
+.productsFiltersDiv {
+  width: 97%;
+  height: 800px;
+  padding: 20px;
+  text-align: center;
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productsFiltersDivOfProduct {
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.productsFiltersDivOfProduct:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.productsFiltersDivOfProduct:hover .productsFiltersDivOfProductButton {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.productsFiltersDivOfProductImage {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.productsFiltersDivOfProductName {
+  display: inline-block;
+  width: 100%;
+  font-size: medium;
+  overflow-wrap: break-word;
+}
+
+.productsFiltersDivOfProductPrice {
+  display: inline-block;
+  width: 100%;
+  font-size: medium;
+  color: grey;
+}
+
+.productsFiltersDivOfProductDivButton {
+  width: 100%;
+  height: 30px;
+  align-items: center;
+}
+
+.productsFiltersDivOfProductButton {
+  height: 100%;
+  width: 50%;
+  vertical-align: sub;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(to left, white 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.selectedProductDivRightQttDivButton {
+  height: 55px;
+  width: 130px;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: x-large;
+  margin-left: 20px;
+  background: linear-gradient(to left, white 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.selectedProductDivRightQttDivButton:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.selectedProductDiv {
+  height: 500px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.selectedProductDivLeft {
+  height: 100%;
+  width: 30%;
+  margin: auto;
+}
+
+.selectedProductDivRight {
+  height: 100%;
+  width: 60%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.selectedProductDivLeftImg {
+  height: 500px;
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  transition: transform 0.2s;
+}
+
+.selectedProductDivLeftImg:hover {
+  transform: scale(1.1);
+}
+
+.adminSelectedProdDivRightName {
+  height: 15%;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightNameSlct {
+  height: 10%;
+  width: 100%;
+}
+
+.adminSelectedUserDivRightName {
+  height: 100px;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightDesc {
+  height: 15%;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightImage {
+  height: 5%;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightPric {
+  height: 15%;
+  width: 100%;
+}
+
+.adminCreateProdFile {
+  float: left;
+}
+
+.adminSelectedProdDivRightQtt {
+  height: 15%;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightImage {
+  height: 5%;
+  width: 100%;
+}
+
+.adminSelectedProdDivRightArch {
+  height: 10%;
+  width: 100%;
+}
+
+.selectedProductDivRightPrice {
+  color: #0099ff;
+}
+
+.selectedProductDivRightQtt {
+  height: 60px;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.selectedProductDivRightDescription {
+  height: 200px;
+  width: 90%;
+  border: 1px grey solid;
+  margin: auto;
+  margin-top: 20px;
+  color: darkgrey;
+}
+
+.selectedProductDivRightQttDivLabel {
+  height: 50px;
+  width: 20%;
+  font-size: x-large;
+  text-align: center;
+  display: inline-block;
+  margin-left: 100px;
+  vertical-align: bottom;
+}
+
+.selectedProductDivRightQttDivInput {
+  height: 60px;
+  width: 210px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.selectedProductDivRightQttInput {
+  height: 50px;
+  width: 60%;
+  border-radius: 50px;
+  border: 1px solid grey;
+  font-family: bold;
+  text-align: center;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.selectedProductDivRightQttInput::-webkit-inner-spin-button,
+.selectedProductDivRightQttInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.selectedProductDivRightQttInput:focus {
+  outline: none;
+}
+
+.selectedProductDivRightQttButtonMinus {
+  display: inline-block;
+  font-size: x-large;
+  background: transparent;
+  border: none;
+}
+
+.selectedProductDivRightQttButtonPlus {
+  display: inline-block;
+  font-size: x-large;
+  background: transparent;
+  border: none;
+}
+
+.selectedProductDivRightQttDivButtonLabel {
+  display: block;
+  margin-top: 10px;
+}
+
+.selectedProductDivRightQttDivButtonLabel:hover {
+  cursor: pointer;
+}
+
+.selectedProductDivRightDescriptionTitle {
+  color: darkblue;
+}
+
+#responseRequestDiv {
+  height: 50px;
+  width: 150px;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+.orderPageOrderDiv {
+  width: 100%;
+  height: 600px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.orderPageOrderDivAllProductsDiv {
+  height: 530px;
+  width: 620px;
+  overflow-y: auto;
+  display: inline-block;
+}
+
+.orderPageOrderDivProductsDiv {
+  height: 100px;
+  width: 600px;
+  display: block;
+  margin-top: 10px;
+}
+
+.orderPageOrderDivOrderDetails {
+  height: 530px;
+  width: 650px;
+  display: inline-block;
+  margin-left: 20px;
+  overflow-y: auto;
+}
+
+.orderPageOrderDivProductsDivImgDiv {
+  width: 60px;
+  height: 100%;
+  margin-left: 20px;
+  display: inline-block;
+  overflow-y: visible;
+}
+
+.orderPageOrderDivProductsDivImg {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.orderPageOrderDivProductsDivTxtDiv {
+  display: inline-block;
+  height: 100%;
+  width: 500px;
+  float: right;
+  font-size: large;
+}
+
+.inputSizeOrderDetails {
+  width: 78%;
+  height: 25px;
+}
+
+#cardNumberId {
+  width: 78%;
+  height: 25px;
+}
+
+#cardNumberId {
+  outline: none;
+}
+
+.inputSizeOrderDetails:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+#cardNumberId::-webkit-outer-spin-button,
+#cardNumberId::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#cardNumberId {
+  -moz-appearance: textfield;
+}
+
+.orderPageOrderDivOrderDetailsLabelType {
+  display: inline-block;
+  height: 50px;
+  width: 300px;
+  overflow-y: hidden;
+  font-size: x-large;
+  vertical-align: bottom;
+}
+
+.orderPageOrderDivOrderDetailsSelectDiv {
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+  overflow-y: hidden;
+}
+
+.orderPageOrderDivOrderDetailsDivOfLine {
+  width: 100%;
+  text-align: center;
+}
+
+.privacyTerms {
+  text-align: center;
+}
+
+.privacyTermsSecond {
+  display: inline-block;
+  height: 100px;
+  width: 600px;
+  overflow-y: hidden;
+  font-size: x-large;
+  vertical-align: bottom;
+}
+
+.orderPageOrderDivAllProductsDivUp {
+  height: 80%;
+  background: lightgrey;
+  overflow: auto;
+}
+
+.orderPageOrderDivAllProductsDivDown {
+  height: 18%;
+  background: white;
+  font-size: x-large;
+}
+
+.orderPageOrderDivAllProductsDivDownLeft {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.orderPageOrderDivAllProductsDivDownRight {
+  width: 55%;
+  float: right;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.addAddressBtn {
+  height: 30px;
+  position: absolute;
+  margin-left: 10px;
+}
+
+.regAddAddressBtn {
+  height: 50px;
+  width: 100px;
+}
+
+.makeOrderDiv {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.makeOrderDiv:hover .makeOrderBtn {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.makeOrderBtn {
+  height: 100%;
+  width: 100px;
+  border-radius: 20px;
+  border: none;
+  font-size: large;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.addAddressCreateBtn {
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.addAddressCreateBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.adminAddPrdctBtn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(to left, white 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.adminAddPrdctBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.adminSavePrdctBtn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.adminSavePrdctBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+.adminDeletePrdctBtn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  font-family: sans-serif;
+  margin-left: 20px;
+  background: linear-gradient(to left, lightgrey 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+.adminDeletePrdctBtn:hover {
+  background-position: left;
+  color: white;
+  cursor: pointer;
+}
+
+/* SELECT count(oi.order_id)as numb_ord,count(p.id) as prod_numb,p.name,pt.name as type_name,pt.id as type_id FROM order_items oi,products p,product_type pt WHERE (oi.product_id = p.id AND p.type_id = pt.id) GROUP BY pt.id ORDER BY prod_numb DESC LIMIT 5"; */
